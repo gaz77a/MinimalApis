@@ -1,0 +1,79 @@
+{
+    "tabWidth": 4,
+    "printWidth": 120,
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": [
+                "*.ts",
+                "*.tsx",
+                "*.js",
+                "*.jsx"
+            ],
+            "options": {
+                "tabWidth": 2,
+                "trailingComma": "all",
+                "bracketSameLine": false,
+                "singleQuote": true
+            }
+        },
+        {
+            "files": [
+                ".prettierrc",
+                "*.json"
+            ],
+            "options": {
+                "tabWidth": 4,
+                "parser": "json"
+            }
+        },
+        {
+            "files": [
+                "*.sln",
+                "*.csproj",
+                "*.user",
+                "*.config"
+            ],
+            "options": {
+                "tabWidth": 2,
+                "singleQuote": false,
+                "parser": "xml",
+                "printWidth": 1000
+            }
+        },
+        {
+            "files": [
+                "*.cs"
+            ],
+            "options": {
+                "tabWidth": 4,
+                "singleQuote": false,
+                "printWidth": 120
+            }
+        },
+        {
+            "files": [
+                "*.yaml",
+                "*.yml"
+            ],
+            "options": {
+                "tabWidth": 2,
+                "singleQuote": true,
+                "parser": "yaml",
+                "printWidth": 1000
+            }
+        },
+        {
+            "files": [
+                "*.sh"
+            ],
+            "options": {
+                "tabWidth": 2,
+                "singleQuote": false,
+                "parser": "bash",
+                "printWidth": 1000,
+                "endOfLine": "lf"
+            }
+        }
+    ]
+}
